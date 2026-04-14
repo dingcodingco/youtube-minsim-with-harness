@@ -1,0 +1,20 @@
+package com.dingco.pulse.api.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ContentRequestResponse {
+
+    private String topic;
+    private int count;
+    private List<SentimentDetailResponse.SampleComment> sampleComments;
+    private String suggestedTitle;
+}

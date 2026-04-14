@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:pulse
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+youtube:
+  api-key: ${YOUTUBE_API_KEY:demo}
+  max-results-per-page: 100
+
+anthropic:
+  api-key: ${ANTHROPIC_API_KEY:demo}
+  model: claude-sonnet-4-20250514
+
+pulse:
+  collector:
+    enabled: ${COLLECTOR_ENABLED:false}
+  analyzer:
+    enabled: ${ANALYZER_ENABLED:false}

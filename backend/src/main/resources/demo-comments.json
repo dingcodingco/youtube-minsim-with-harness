@@ -1,0 +1,40 @@
+{
+  "videos": [
+    {
+      "videoId": "demo-video-001",
+      "title": "하네스 엔지니어링이 뭔데?",
+      "publishedAt": "2026-04-10T09:00:00",
+      "comments": [
+        { "id": "c001", "author": "개발새발", "content": "이런 영상 정말 감사합니다! 하네스 개념이 확 와닿았어요", "likeCount": 23, "publishedAt": "2026-04-10T10:30:00" },
+        { "id": "c002", "author": "주니어맨", "content": "Cursor vs Claude Code 비교 영상도 해주세요!", "likeCount": 41, "publishedAt": "2026-04-10T11:00:00" },
+        { "id": "c003", "author": "코딩왕", "content": "설명이 너무 빨라요 좀 천천히 해주시면 좋겠어요", "likeCount": 5, "publishedAt": "2026-04-10T12:00:00" },
+        { "id": "c004", "author": "시니어곰", "content": "하네스 심화편도 부탁드려요 Skills 부분이요", "likeCount": 12, "publishedAt": "2026-04-10T14:00:00" },
+        { "id": "c005", "author": "풀스택러", "content": "Spring Boot에 적용하는 방법이 궁금합니다", "likeCount": 8, "publishedAt": "2026-04-10T15:30:00" }
+      ]
+    },
+    {
+      "videoId": "demo-video-002",
+      "title": "AI 시대 개발자 생존전략",
+      "publishedAt": "2026-04-05T09:00:00",
+      "comments": [
+        { "id": "c101", "author": "이직준비", "content": "현실적인 조언 감사합니다 용기가 생겼어요", "likeCount": 56, "publishedAt": "2026-04-05T10:00:00" },
+        { "id": "c102", "author": "비전공자", "content": "비전공자인데 너무 막막합니다", "likeCount": 15, "publishedAt": "2026-04-05T11:30:00" },
+        { "id": "c103", "author": "5년차", "content": "이력서 작성 팁 영상도 만들어주세요!", "likeCount": 32, "publishedAt": "2026-04-05T13:00:00" },
+        { "id": "c104", "author": "대학생A", "content": "포트폴리오 관련 내용도 다뤄주세요", "likeCount": 27, "publishedAt": "2026-04-06T09:00:00" }
+      ]
+    },
+    {
+      "videoId": "demo-video-003",
+      "title": "Claude Code 처음 쓰는 법",
+      "publishedAt": "2026-03-28T09:00:00",
+      "comments": [
+        { "id": "c201", "author": "뉴비개발", "content": "와 이거 진짜 신세계네요 바로 써봤습니다", "likeCount": 44, "publishedAt": "2026-03-28T10:00:00" },
+        { "id": "c202", "author": "자바장인", "content": "IntelliJ에서 쓸 수 있는 방법은 없나요?", "likeCount": 19, "publishedAt": "2026-03-28T12:00:00" },
+        { "id": "c203", "author": "코린이", "content": "저도 따라해봤는데 잘 안 돼요 ㅠㅠ", "likeCount": 3, "publishedAt": "2026-03-29T08:00:00" },
+        { "id": "c204", "author": "프론트엔드", "content": "React 프로젝트에서 쓰는 법도 알려주세요!", "likeCount": 38, "publishedAt": "2026-03-29T10:00:00" },
+        { "id": "c205", "author": "CTO", "content": "팀에 도입하려면 어떤 절차가 좋을까요?", "likeCount": 22, "publishedAt": "2026-03-30T14:00:00" },
+        { "id": "c206", "author": "감사맨", "content": "최고의 Claude Code 튜토리얼입니다 구독 박았습니다", "likeCount": 61, "publishedAt": "2026-03-30T16:00:00" }
+      ]
+    }
+  ]
+}

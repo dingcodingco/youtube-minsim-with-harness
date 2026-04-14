@@ -1,0 +1,26 @@
+# Build outputs
+backend/build/
+backend/.gradle/
+frontend/dist/
+frontend/node_modules/
+e2e/node_modules/
+e2e/test-results/
+e2e/playwright-report/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+*.log
+
+# Workspace (harness intermediate artifacts)
+_workspace/
